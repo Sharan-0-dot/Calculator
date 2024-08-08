@@ -204,8 +204,8 @@ body {
 
 @media screen and (width < 425px) {
 
-    body {
-        height : 700px;
+       body {
+        height : 900px;
         background-color: #fdf0d5;
         display: flex;
         justify-content: center;
@@ -213,17 +213,17 @@ body {
     }
 
     #Container {
-        height : 80vh;
-        width : 60vw;
+        height : 72vh;
+        width : 68vw;
         background-color: #003049;
         border-radius: 0.5rem;
         box-shadow : 0 0 0 rgba(0,0,0,1);
-        margin-top : 2rem;
+        margin : 2rem;
     }
 
     #displayBox {
         height : 10vh;
-        width : 60vw;
+        width : 68vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -232,7 +232,7 @@ body {
     
     #display {
         height : 10vh;
-        width : 56vw;
+        width : 62vw;
         background-color: #669bbc;
         border-radius: 0.5rem;
         color: white;
@@ -244,7 +244,7 @@ body {
 
     #clear-btn {
         height : 6vh;
-        width : 56vw;
+        width : 64vw;
         display: flex;
         flex-direction: row-reverse;
         margin-top: 1rem;
@@ -264,16 +264,16 @@ body {
     }
 
     #btn-layout-box {
-        height : 58vh;
-        width : 60vw;
+        height : 50vh;
+        width : 68vw;
         display : flex;
         justify-content: center;
         align-items: center;
     }
     
     #btn-layout {
-        height : 55vh;
-        width : 58vw;
+        height : 48vh;
+        width : 68vw;
         display: flex;
         flex-direction: column;
     }
@@ -282,7 +282,7 @@ body {
     
     #first {
       height : 10vh;
-      width : 58vw;
+      width : 68vw;
       display: flex;
       justify-content: space-evenly;
       align-items: center;
@@ -313,24 +313,25 @@ body {
 
 
 #second {
-    height : 42vh;
-    width : 58vw;
+    height : 40vh;
+    width : 68vw;
     display: flex;
     flex-direction: row;
 }
 
 #one {
-    height : 42vh;
-    width : 42vw;
+    height : 40vh;
+    width : 48vw;
     display : flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    margin-left : 0.4rem;
 }
 
 #equals {
     height : 8vh;
-    width : 12vw;
+    width : 13vw;
     background-color: #fdf0d5;
     border : none;
     border-radius: 0.5rem;
@@ -341,7 +342,7 @@ body {
 
 .number {
     height : 8vh;
-    width : 12vw;
+    width : 13vw;
     background-color: #fdf0d5;
     border : none;
     border-radius: 0.5rem;
@@ -351,8 +352,8 @@ body {
 
 
 #two {
-    height : 42vh;
-    width : 16vw;
+    height : 40vh;
+    width : 18vw;
     display: flex;
     justify-content: space-evenly;
     align-items : center;
@@ -360,8 +361,8 @@ body {
 }
 
 .operators {
-    height : 9vh;
-    width : 12vw;
+    height : 8vh;
+    width : 13vw;
     background-color: #fdf0d5;
     border : none;
     border-radius: 0.5rem;
