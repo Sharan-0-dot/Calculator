@@ -1,0 +1,370 @@
+* {
+    margin : 0px;
+    padding : 0px;
+}
+
+body {
+    height : 800px;
+    background-color: #fdf0d5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Start */
+
+#Container {
+    height : 90vh;
+    width : 40vw;
+    background-color: #003049;
+    border-radius: 0.5rem;
+    box-shadow : 0 0 0 rgba(0,0,0,1);
+}
+
+/* display */
+
+#displayBox {
+    height : 13vh;
+    width : 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#display {
+    height : 12vh;
+    width : 38vw;
+    background-color: #669bbc;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* clear button */
+
+#clear-btn {
+    height : 8vh;
+    width : 38vw;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 1.5rem;
+}
+
+#clear-btn div {
+    width : 10vw;
+    background-color: #fdf0d5;
+    border : none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#clear-btn div:hover {
+    border : 4px solid #c1121f;
+    cursor: pointer;
+}
+
+/* Button-layout */
+
+#btn-layout-box {
+    height : 60vh;
+    width : 40vw;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-layout {
+    height : 58vh;
+    width : 38vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#first {
+    height : 10vh;
+    width : 38vw;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.spec-operators {
+    height : 7vh;
+    width : 8vw;
+    border : none;
+    border-radius: 0.5rem;
+    background-color: #fdf0d5;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#back {
+    height : 7vh;
+    width : 8vw;
+    border : none;
+    border-radius: 0.5rem;
+    background-color: #fdf0d5;
+    font-size: larger;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#back:hover {
+    border : 4px solid #c1121f;
+    cursor: pointer;
+}
+
+.spec-operators:hover {
+    border : 4px solid #c1121f;
+    cursor: pointer;
+}
+
+#second {
+    height : 42vh;
+    width : 38vw;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+#one {
+    height : 42vh;
+    width : 28vw;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#equals {
+    height : 8vh;
+    width : 8vw;
+    background-color: #fdf0d5;
+    border : none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#equals:hover {
+    border : 4px solid #c1121f;
+    cursor: pointer;
+}
+
+.number {
+    height : 8vh;
+    width : 8vw;
+    background-color: #fdf0d5;
+    border : none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.number:hover {
+    border : 4px solid #c1121f;
+    cursor: pointer;
+}
+
+#two {
+    height : 42vh;
+    width : 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items : center;
+    flex-direction: column;
+}
+
+.operators {
+    height : 9vh;
+    width : 7vw;
+    background-color: #fdf0d5;
+    border : none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.operators:hover {
+    border : 4px solid #c1121f;
+    cursor: pointer;
+}
+
+@media screen and (width < 450px) {
+
+    body {
+        height : 700px;
+        background-color: #fdf0d5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Container {
+        height : 80vh;
+        width : 60vw;
+        background-color: #003049;
+        border-radius: 0.5rem;
+        box-shadow : 0 0 0 rgba(0,0,0,1);
+    }
+
+    #displayBox {
+        height : 10vh;
+        width : 60vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+    
+    #display {
+        height : 10vh;
+        width : 56vw;
+        background-color: #669bbc;
+        border-radius: 0.5rem;
+        color: white;
+        display: flex;
+        justify-content: flex-end;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    #clear-btn {
+        height : 6vh;
+        width : 56vw;
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 1rem;
+    }
+    
+    #clear-btn div {
+        width : 18vw;
+        background-color: #fdf0d5;
+        border : none;
+        border-radius: 0.5rem;
+        font-size: medium;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #btn-layout-box {
+        height : 58vh;
+        width : 60vw;
+        display : flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #btn-layout {
+        height : 55vh;
+        width : 58vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
+    #first {
+      height : 10vh;
+      width : 58vw;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+.spec-operators {
+    height : 6vh;
+    width : 12vw;
+    border : none;
+    border-radius: 0.5rem;
+    background-color: #fdf0d5;
+    font-size: medium;
+    font-weight: 500;
+}
+
+#back {
+    height : 6vh;
+    width : 12vw;
+    border : none;
+    border-radius: 0.5rem;
+    background-color: #fdf0d5;
+    font-size: medium;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+#second {
+    height : 42vh;
+    width : 58vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#one {
+    height : 42vh;
+    width : 42vw;
+    display : flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#equals {
+    height : 8vh;
+    width : 12vw;
+    background-color: #fdf0d5;
+    border : none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+.number {
+    height : 8vh;
+    width : 12vw;
+    background-color: #fdf0d5;
+    border : none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+}
+
+
+#two {
+    height : 42vh;
+    width : 16vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items : center;
+    flex-direction: column;
+}
+
+.operators {
+    height : 9vh;
+    width : 12vw;
+    background-color: #fdf0d5;
+    border : none;
+    border-radius: 0.5rem;
+    font-size: larger;
+    font-weight: 500;
+}
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="Container">
+        <div id="displayBox">
+            <div id="display">
+            </div>
+        </div>
+        <div id="clear-btn">
+            <div id="clear">CLEAR ALL</div>
+        </div>
+        <div id="btn-layout-box">
+            <div id="btn-layout">
+                <div id="first">
+                    <button class="spec-operators" onclick="window.location.reload()">Reset</button>
+                    <button class="spec-operators">%</button>
+                    <button class="spec-operators">.</button>
+                    <button id="back"><<</button>
+                </div>
+                <div id="second">
+                    <div id="one">
+                        <button class="number">9</button>
+                        <button class="number">8</button>
+                        <button class="number">7</button>
+                        <button class="number">6</button>
+                        <button class="number">5</button>
+                        <button class="number">4</button>
+                        <button class="number">3</button>
+                        <button class="number">2</button>
+                        <button class="number">1</button>
+                        <button class="number">0</button>
+                        <button class="number">00</button>
+                        <button id="equals">=</button>
+                    </div>
+                    <div id="two">
+                        <button class="operators">/</button>
+                        <button class="operators">*</button>
+                        <button class="operators">-</button>
+                        <button class="operators">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
