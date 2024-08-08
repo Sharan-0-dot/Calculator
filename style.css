@@ -202,7 +202,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (width < 450px) {
+@media screen and (width < 425px) {
 
     body {
         height : 700px;
@@ -218,6 +218,7 @@ body {
         background-color: #003049;
         border-radius: 0.5rem;
         box-shadow : 0 0 0 rgba(0,0,0,1);
+        margin-top : 2rem;
     }
 
     #displayBox {
